@@ -1,0 +1,8 @@
+data <- read.csv("data/descriptive.csv", header = TRUE)
+head(data)
+dim(data)
+length(data)
+length(data$survey)
+summary(data)
+table(data$gender)
+table(data$level)
